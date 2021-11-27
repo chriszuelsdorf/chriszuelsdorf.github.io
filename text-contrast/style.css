@@ -1,0 +1,21 @@
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 5px 5px;
+    white-space: nowrap;
+    grid-auto-flow: row;
+    font-size: 9pt;
+    grid-template-areas:
+      "c0 r0 c1 r1 c2 r2 c3 r3 c4 r4 c5 r5 c6 r6 c7 r7 c8 r8 c9 r9 ca ra cb rb cc rc cd rd ce re cf rf";
+}
+  
+/* .gridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 3px 3px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "c0 c1 c2 c3";
+} */
